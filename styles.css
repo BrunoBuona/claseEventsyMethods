@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 25vh;
+}
+h1{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+main{
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    gap: 2rem;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    padding: 0!important;
+}
+.card-body{
+    padding: 0!important;
+}
+.card-title{
+    font-size: 8px;
+    padding: 0!important;
+}
+.card-text{
+    font-size:5px;
+    padding: 0!important;
+}
+.card-img-top{
+    width: 100%;
+    height: 40px;
+    object-fit: cover!important;
+    padding: 0!important;
+}
+.contenedor-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+.contenedor-search > h2{
+    color: rgb(0, 0, 122);
+    font-size: 48px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+h2{
+    color: white;
+}
+.contenedor-cards{
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    width: 100%;
+    gap: 2rem;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
